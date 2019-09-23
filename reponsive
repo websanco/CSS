@@ -65,3 +65,33 @@
 
 }
 
+
+<script>
+		
+		(function($) {
+    var $window = $(window),
+        $html = $('html');
+	var size = $window.width();
+		if ($window.width() < 1024) {
+			$('.over,footer,.page-footer-fluid,#wrap-container,.home-fluid,.header-mobi,.home-fluid aside, .shop-home-main, .product-slider,.home-fluid .promotion-banner, .shop-sidebar,.sidebar-new-home').css('max-width', size+'px'); 
+		}else{
+			
+			
+		}
+		
+    $window.resize(function resize() {
+		var size = $window.width();
+        if ($window.width() < 1024) {
+           // $('.menu-left-ul').show();
+       
+		$('.over,footer,.page-footer-fluid,#wrap-container,.home-fluid,.header-mobi,.home-fluid aside, .shop-home-main, .product-slider,.home-fluid .promotion-banner, .shop-sidebar,.sidebar-new-home').css('max-width', size+'px'); 
+//alert(size);
+
+ }
+ 
+
+        $html.removeClass('mobile');
+    }).trigger('resize');
+})(jQuery);
+			</script>
+
