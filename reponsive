@@ -94,4 +94,31 @@
     }).trigger('resize');
 })(jQuery);
 			</script>
+			
+			
+CACH RESPONSIVE ĐI TỪ MOBI FIRST
+ ĐI TỪ  MIN WIDTH
+ TỪ 320px - 1220px
+ Max width : 320px;
+ Max width : 786px;
+ 
+Desktop First:
+
+Sử dụng max-width
+Giao diện thay đổi khi độ rộng màn hình nhỏ hơn hoặc bằng break point
+
+
+Mobile First:
+Sử dụng min-width
+Giao diện thay đổi khi độ rộng màn hình lớn hơn hoặc bằng break point
+ 
+360x640 --- 20.88%
+1366x768 --- 11.82%
+1920x1080 --- 6.6%
+375x667 --- 4.75%
+720x1280 --- 4.23%
+768x1024 --- 2.93%
+
+			
+			
 
