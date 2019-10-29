@@ -1,0 +1,16 @@
+table {
+    table-layout: fixed;
+}
+
+tbody {
+    /* display: block; */
+    overflow: scroll;
+}
+@media screen and (max-width: 768px){
+  tbody {
+    display: block; 
+    overflow: scroll;
+}
+}
+
+ display: table-cell;
